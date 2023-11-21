@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: fulcio-1-0-gamma
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: fulcio-1-0-gamma
+    app.kubernetes.io/part-of: fulcio-1-0-gamma
+  name: fulcio-1-0-gamma6hpz
+spec:
+  port:
+    targetPort: 5555
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: fulcio-1-0-gamma
+    weight: 100
+status: {}
