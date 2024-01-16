@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: fulcio-1-0-gamma
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/fulcio-1-0-gamma/fulcio-1-0-gamma@sha256:a6a549592b1dfa2da491aca363a8b57306095802ae5ccabdd56012095226ad67
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/fulcio-1-0-gamma/fulcio-1-0-gamma@sha256:8e80fa6fba6df4cc3065636a7fd926b57327a5ed36f67caf56f162ea7ae0480b
         name: container-image
         resources: {}
 status: {}
