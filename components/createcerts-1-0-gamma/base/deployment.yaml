@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: createcerts-1-0-gamma
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/fulcio-1-0-gamma/createcerts-1-0-gamma@sha256:01976ef80bdcfe41435b60fcd0dff789a88993411b9d22c457db1ddef361dd34
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/fulcio-1-0-gamma/createcerts-1-0-gamma@sha256:4491ef2f350b2acf15ac04e6c6f076e120b5e5c4468401d7d750341659f33eb2
         name: my-go
         ports:
         - containerPort: 8081
