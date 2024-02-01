@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/fulcio-1-0-gamma/createcerts-1-0-gamma@sha256:424bb53e999f96fae237c22a3d863b11deec5481fd404b15c4f806c495de256b
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/fulcio-1-0-gamma/createcerts-1-0-gamma@sha256:75f0c82072865f081a7134597409b947c03b2727df75857b2480f0905fd79d5f
         name: my-go
         resources: {}
 status: {}
